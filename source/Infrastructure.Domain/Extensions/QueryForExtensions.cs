@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain.Extensions
+﻿namespace Codeparts.Frameplate.Domain.Extensions
 {
     using Criteria;
     using JetBrains.Annotations;

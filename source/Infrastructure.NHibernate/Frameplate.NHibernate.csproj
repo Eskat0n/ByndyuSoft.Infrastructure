@@ -152,9 +152,9 @@
       <Project>{4CA1CD9D-ECA4-45BD-BBB6-83A27A9EA101}</Project>
       <Name>Infrastructure.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure.Domain\Infrastructure.Domain.csproj">
+    <ProjectReference Include="..\Infrastructure.Domain\Frameplate.Domain.csproj">
       <Project>{3F945C22-DAFE-4E48-A790-51FC090901AC}</Project>
-      <Name>Infrastructure.Domain</Name>
+      <Name>Frameplate.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

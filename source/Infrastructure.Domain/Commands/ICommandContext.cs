@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain.Commands
+﻿namespace Codeparts.Frameplate.Domain.Commands
 {
     /// <summary>
     ///     Маркерный интерфейс для контекста команды.

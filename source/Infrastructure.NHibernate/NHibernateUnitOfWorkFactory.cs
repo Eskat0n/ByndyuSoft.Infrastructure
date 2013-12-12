@@ -1,7 +1,7 @@
 ﻿namespace Codeparts.Frameplate.NHibernate
 {
     using System.Data;
-    using ByndyuSoft.Infrastructure.Domain;
+    using Domain;
     using global::NHibernate;
     using JetBrains.Annotations;
 

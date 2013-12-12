@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain.Criteria
+﻿namespace Codeparts.Frameplate.Domain.Criteria
 {
     /// <summary>
     ///     Критерий для поиска по идентификатору

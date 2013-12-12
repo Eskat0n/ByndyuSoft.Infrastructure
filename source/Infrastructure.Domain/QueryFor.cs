@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain
+﻿namespace Codeparts.Frameplate.Domain
 {
     /// <summary>
     ///     Стандартная реализация <see cref="IQueryFor{T}" />

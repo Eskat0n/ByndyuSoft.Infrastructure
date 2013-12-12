@@ -8,8 +8,8 @@
     <ProjectGuid>{3F945C22-DAFE-4E48-A790-51FC090901AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ByndyuSoft.Infrastructure.Domain</RootNamespace>
-    <AssemblyName>ByndyuSoft.Infrastructure.Domain</AssemblyName>
+    <RootNamespace>Codeparts.Frameplate.Domain</RootNamespace>
+    <AssemblyName>Frameplate.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>false</SignAssembly>
@@ -45,7 +45,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>bin\Debug\ByndyuSoft.Infrastructure.Domain.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Frameplate.Domain.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -55,7 +55,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>bin\Release\ByndyuSoft.Infrastructure.Domain.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Frameplate.Domain.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="JetBrains.Annotations, Version=6.1.0.0, Culture=neutral, PublicKeyToken=3f033448d4bb5376, processorArchitecture=MSIL">

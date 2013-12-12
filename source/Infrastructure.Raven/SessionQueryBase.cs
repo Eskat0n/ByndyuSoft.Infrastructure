@@ -1,6 +1,6 @@
 namespace ByndyuSoft.Infrastructure.Raven.DB
 {
-    using Domain;
+    using Codeparts.Frameplate.Domain;
     using JetBrains.Annotations;
     using global::Raven.Client;
 

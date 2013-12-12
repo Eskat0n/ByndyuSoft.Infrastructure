@@ -1,9 +1,9 @@
 ﻿namespace Infrastructure.NHibernate.Tests.Query
 {
     using System.Linq;
-    using ByndyuSoft.Infrastructure.Domain;
-    using ByndyuSoft.Infrastructure.Domain.Criteria;
-    using ByndyuSoft.Infrastructure.Domain.Extensions;
+    using Codeparts.Frameplate.Domain;
+    using Codeparts.Frameplate.Domain.Criteria;
+    using Codeparts.Frameplate.Domain.Extensions;
     using Codeparts.Frameplate.NHibernate;
     using Codeparts.Frameplate.NHibernate.Conventions.Preset.Natural;
     using Codeparts.Frameplate.NHibernate.Mappings;

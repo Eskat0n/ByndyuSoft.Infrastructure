@@ -1,7 +1,7 @@
 namespace ByndyuSoft.Infrastructure.Raven.DB
 {
     using System.Data;
-    using Domain;
+    using Codeparts.Frameplate.Domain;
     using JetBrains.Annotations;
 
     [PublicAPI]

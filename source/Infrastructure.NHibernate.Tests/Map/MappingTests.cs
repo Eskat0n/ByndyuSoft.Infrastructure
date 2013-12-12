@@ -2,7 +2,7 @@
 {
     using System;
     using System.Linq;
-    using ByndyuSoft.Infrastructure.Domain;
+    using Codeparts.Frameplate.Domain;
     using Codeparts.Frameplate.NHibernate.Conventions.Preset.Strict;
     using Codeparts.Frameplate.NHibernate.Mappings;
     using NUnit.Framework;

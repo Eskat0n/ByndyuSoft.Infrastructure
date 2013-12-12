@@ -67,9 +67,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Domain\Infrastructure.Domain.csproj">
+    <ProjectReference Include="..\Infrastructure.Domain\Frameplate.Domain.csproj">
       <Project>{3f945c22-dafe-4e48-a790-51fc090901ac}</Project>
-      <Name>Infrastructure.Domain</Name>
+      <Name>Frameplate.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

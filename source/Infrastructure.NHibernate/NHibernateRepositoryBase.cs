@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using ByndyuSoft.Infrastructure.Domain;
+    using Domain;
     using global::NHibernate;
     using global::NHibernate.Linq;
 

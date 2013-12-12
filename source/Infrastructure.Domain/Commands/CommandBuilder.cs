@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain.Commands
+﻿namespace Codeparts.Frameplate.Domain.Commands
 {
     /// <summary>
     ///     Стандартная реализация интерефейса <see cref="ICommandBuilder" />

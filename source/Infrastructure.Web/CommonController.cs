@@ -4,7 +4,7 @@
     using System.Text;
     using System.Web.Mvc;
     using ActionResults;
-    using ByndyuSoft.Infrastructure.Domain;
+    using Domain;
     using Forms;
 
     public abstract class CommonController : Controller

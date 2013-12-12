@@ -1,6 +1,6 @@
 namespace Codeparts.Frameplate.NHibernate
 {
-    using ByndyuSoft.Infrastructure.Domain;
+    using Domain;
     using global::NHibernate;
     using JetBrains.Annotations;
 
@@ -10,7 +10,7 @@ namespace Codeparts.Frameplate.NHibernate
     /// <typeparam name="TCriterion"></typeparam>
     /// <typeparam name="TResult"></typeparam>
     [PublicAPI]
-    public abstract class SessionQueryBase<TCriterion, TResult> : global::ByndyuSoft.Infrastructure.Domain.IQuery<TCriterion, TResult>
+    public abstract class SessionQueryBase<TCriterion, TResult> : global::Codeparts.Frameplate.Domain.IQuery<TCriterion, TResult>
         where TCriterion : ICriterion
     {
         private readonly ISessionProvider _sessionProvider;

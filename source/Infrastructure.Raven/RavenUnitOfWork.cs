@@ -1,7 +1,7 @@
 ﻿namespace ByndyuSoft.Infrastructure.Raven.DB
 {
     using System;
-    using Domain;
+    using Codeparts.Frameplate.Domain;
     using global::Raven.Client;
 
     public class RavenUnitOfWork : IUnitOfWork

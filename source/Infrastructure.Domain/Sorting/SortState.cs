@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain.Sorting
+﻿namespace Codeparts.Frameplate.Domain.Sorting
 {
     public class SortState
     {

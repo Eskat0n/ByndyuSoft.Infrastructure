@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Domain.Comparers
+﻿namespace Codeparts.Frameplate.Domain.Comparers
 {
     using System.Collections;
     using JetBrains.Annotations;
