@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Infrastructure.Domain</id>
+    <id>Frameplate.Domain</id>
     <version>$version$</version>
-    <title>ByndyuSoft.Infrastructure.Domain</title>
-    <authors>eskat0n, Alexander Byndyu</authors>
-    <owners>alexanderbyndyu</owners>
-    <projectUrl>https://github.com/AlexanderByndyu/ByndyuSoft.Infrastructure</projectUrl>
+    <title>Frameplate.Domain</title>
+    <authors>eskat0n</authors>
+    <owners>eskat0n</owners>
+    <projectUrl>https://github.com/eskat0n/Frameplate</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Infrastructure.Domain</description>
+    <description>Frameplate.Domain</description>
     <dependencies>
       <dependency id="JetBrains.Annotations" version="7.0" />
     </dependencies>

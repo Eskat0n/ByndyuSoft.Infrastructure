@@ -104,7 +104,7 @@
   <ItemGroup>
     <None Include="CHANGELOG.ru.md" />
     <None Include="CHANGELOG.md" />
-    <None Include="Infrastructure.Domain.nuspec" />
+    <None Include="Frameplate.Domain.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
