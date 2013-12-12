@@ -10,6 +10,6 @@
         /// <summary>
         ///     Create <see cref="IDbConnection" />
         /// </summary>
-        IDbConnection Create();
+        IDbConnection Create(string connectionStringName = null);
     }
 }

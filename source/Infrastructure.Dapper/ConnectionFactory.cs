@@ -12,13 +12,14 @@
     /// </summary>
     public class ConnectionFactory : IConnectionFactory
     {
-        public IDbConnection Create()
+        public IDbConnection Create(string connectionStringName = null)
         {
-            var sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["Main"].ConnectionString);
+            var connectionString = ConfigurationManager.ConnectionStrings[connectionStringName ?? "Main"];
 
-            DbConnection dbConnection = MiniProfiler.Current == null
-                                            ? (DbConnection) sqlConnection
-                                            : new ProfiledDbConnection(sqlConnection, MiniProfiler.Current);
+            var sqlConnection = new SqlConnection(connectionString.ConnectionString);
+            var dbConnection = MiniProfiler.Current == null
+                ? (DbConnection) sqlConnection
+                : new ProfiledDbConnection(sqlConnection, MiniProfiler.Current);
 
             dbConnection.Open();
 

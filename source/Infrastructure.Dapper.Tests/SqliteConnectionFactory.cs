@@ -6,7 +6,7 @@
 
     public class SqliteConnectionFactory : IConnectionFactory
     {
-        public IDbConnection Create()
+        public IDbConnection Create(string connectionStringName = null)
         {
             IDbConnection dbConnection = new SQLiteConnection("Data Source=:memory:;pooling = true;");
             dbConnection.Open();
