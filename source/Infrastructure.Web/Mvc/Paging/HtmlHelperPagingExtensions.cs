@@ -1,9 +1,9 @@
-﻿using System;
-using System.Web.Mvc;
-using System.Web.Routing;
-
-namespace ByndyuSoft.Infrastructure.Web.Mvc.Paging
+﻿namespace Codeparts.Frameplate.Web.Mvc.Paging
 {
+    using System;
+    using System.Web.Mvc;
+    using System.Web.Routing;
+
     ///<summary>
     ///</summary>
     public static class HtmlHelperPagingExtensions

@@ -1,11 +1,11 @@
-﻿using System;
-using System.Linq.Expressions;
-using System.Web.Mvc;
-using Microsoft.Web.Mvc;
-
-namespace ByndyuSoft.Infrastructure.Web.Mvc
+﻿namespace Codeparts.Frameplate.Web.Mvc
 {
-	///<summary>
+    using System;
+    using System.Linq.Expressions;
+    using System.Web.Mvc;
+    using Microsoft.Web.Mvc;
+
+    ///<summary>
 	/// Расширения для UrlHelper
 	///</summary>
 	public static class UrlHelperExtensions

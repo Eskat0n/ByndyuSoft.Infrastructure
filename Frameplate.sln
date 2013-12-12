@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.NHibernate.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Common.Tests", "source\Infrastructure.Common.Tests\Infrastructure.Common.Tests.csproj", "{F1FE00D6-86B0-4D01-B3A1-13E7414475D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Web", "source\Infrastructure.Web\Infrastructure.Web.csproj", "{FDFF70B4-9626-48C9-9003-1785B0B809CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frameplate.Web", "source\Infrastructure.Web\Frameplate.Web.csproj", "{FDFF70B4-9626-48C9-9003-1785B0B809CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8A73791-1311-443E-9E5C-4AFC7DA4FABC}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8A737
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Web.Tests", "source\Infrastructure.Web.Tests\Infrastructure.Web.Tests.csproj", "{01BFF889-3691-4BB4-9BF6-AB7EBAEB81FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frameplate.Web.Tests", "source\Infrastructure.Web.Tests\Frameplate.Web.Tests.csproj", "{01BFF889-3691-4BB4-9BF6-AB7EBAEB81FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D78331E-9D7F-41B1-A36A-DEFB2F5D5D64}"
 	ProjectSection(SolutionItems) = preProject

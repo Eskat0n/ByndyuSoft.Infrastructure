@@ -8,8 +8,8 @@
     <ProjectGuid>{01BFF889-3691-4BB4-9BF6-AB7EBAEB81FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Infrastructure.Web.Tests</RootNamespace>
-    <AssemblyName>Infrastructure.Web.Tests</AssemblyName>
+    <RootNamespace>Codeparts.Frameplate.Web.Tests</RootNamespace>
+    <AssemblyName>Frameplate.Web.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
@@ -50,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Web\Infrastructure.Web.csproj">
+    <ProjectReference Include="..\Infrastructure.Web\Frameplate.Web.csproj">
       <Project>{FDFF70B4-9626-48C9-9003-1785B0B809CA}</Project>
-      <Name>Infrastructure.Web</Name>
+      <Name>Frameplate.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

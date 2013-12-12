@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Web.ActionResults
+﻿namespace Codeparts.Frameplate.Web.ActionResults
 {
     using System;
     using System.IO;

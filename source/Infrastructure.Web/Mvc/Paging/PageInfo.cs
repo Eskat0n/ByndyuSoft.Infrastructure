@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace ByndyuSoft.Infrastructure.Web.Mvc.Paging
+﻿namespace Codeparts.Frameplate.Web.Mvc.Paging
 {
+    using System;
+
     /// <summary>
     /// Информаия о странице
     /// </summary>

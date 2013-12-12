@@ -1,10 +1,9 @@
-﻿using System;
-using System.Web;
-using System.Web.Routing;
-
-namespace ByndyuSoft.Infrastructure.Web.Routing
+﻿namespace Codeparts.Frameplate.Web.Routing
 {
-	///<summary>
+    using System.Web;
+    using System.Web.Routing;
+
+    ///<summary>
 	/// Обработчик постоянного перенаправления на заданный маршрут
 	///</summary>
 	public class RedirectToRoutePermanentHandler : IRouteHandler, IHttpHandler

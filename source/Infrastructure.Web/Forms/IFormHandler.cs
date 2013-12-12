@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Web.Forms
+﻿namespace Codeparts.Frameplate.Web.Forms
 {
     public interface IFormHandler<in TForm> where TForm:IForm
 	{

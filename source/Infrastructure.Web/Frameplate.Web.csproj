@@ -8,8 +8,8 @@
     <ProjectGuid>{FDFF70B4-9626-48C9-9003-1785B0B809CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ByndyuSoft.Infrastructure.Web</RootNamespace>
-    <AssemblyName>ByndyuSoft.Infrastructure.Web</AssemblyName>
+    <RootNamespace>Codeparts.Frameplate.Web</RootNamespace>
+    <AssemblyName>Frameplate.Web</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>false</SignAssembly>
@@ -46,7 +46,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>..\..\build\Debug\ByndyuSoft.Infrastructure.Web.xml</DocumentationFile>
+    <DocumentationFile>..\..\build\Debug\Frameplate.Web.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -56,7 +56,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>..\..\build\Release\ByndyuSoft.Infrastructure.Web.xml</DocumentationFile>
+    <DocumentationFile>..\..\build\Release\Frameplate.Web.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Web.Mvc">

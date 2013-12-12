@@ -1,10 +1,10 @@
-﻿namespace ByndyuSoft.Infrastructure.Web
+﻿namespace Codeparts.Frameplate.Web
 {
     using System;
     using System.Text;
     using System.Web.Mvc;
     using ActionResults;
-    using Domain;
+    using ByndyuSoft.Infrastructure.Domain;
     using Forms;
 
     public abstract class CommonController : Controller

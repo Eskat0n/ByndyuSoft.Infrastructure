@@ -1,8 +1,8 @@
-﻿namespace ByndyuSoft.Infrastructure.Web.Extensions
+﻿namespace Codeparts.Frameplate.Web.Extensions
 {
-	using System.Web;
+    using System.Web;
 
-	public static class HttpContextExtensions
+    public static class HttpContextExtensions
 	{
 		/// <summary>
 		/// Проверка аутентифицирован пользователь

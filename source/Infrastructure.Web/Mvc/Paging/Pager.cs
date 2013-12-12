@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Web.Routing;
-using ByndyuSoft.Infrastructure.Web.Properties;
-
-namespace ByndyuSoft.Infrastructure.Web.Mvc.Paging
+﻿namespace Codeparts.Frameplate.Web.Mvc.Paging
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.Specialized;
+    using System.Web.Routing;
+    using Properties;
+
     internal class Pager
     {
         private static readonly string pagesCaption = string.Format("{0}:",LocalizedStrings.Pages);

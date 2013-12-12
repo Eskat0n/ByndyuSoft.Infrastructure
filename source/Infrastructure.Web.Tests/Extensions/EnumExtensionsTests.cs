@@ -1,7 +1,7 @@
-﻿namespace Infrastructure.Web.Tests.Extensions
+﻿namespace Codeparts.Frameplate.Web.Tests.Extensions
 {
     using System.Linq;
-    using ByndyuSoft.Infrastructure.Web.Extensions;
+    using Codeparts.Frameplate.Web.Extensions;
     using NUnit.Framework;
 
     [TestFixture]

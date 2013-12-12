@@ -1,9 +1,8 @@
-﻿using System;
-using System.Web.Routing;
-
-namespace ByndyuSoft.Infrastructure.Web.Routing
+﻿namespace Codeparts.Frameplate.Web.Routing
 {
-	///<summary>
+    using System.Web.Routing;
+
+    ///<summary>
 	/// Методы расширения для коллекции маршрутов
 	///</summary>
 	public static class RouteCollectionExtensions
