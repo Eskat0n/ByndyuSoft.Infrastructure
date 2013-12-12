@@ -1,11 +1,13 @@
 ﻿namespace ByndyuSoft.Infrastructure.Web
 {
     using System;
+    using System.Text;
     using System.Web.Mvc;
+    using ActionResults;
     using Domain;
     using Forms;
 
-    public abstract class CommonController : ControllerBase
+    public abstract class CommonController : Controller
     {
         private const string ModelStateKey = "ModelState";
 
@@ -89,6 +91,16 @@
                 ModelState.Merge((ModelStateDictionary) TempData[ModelStateKey]);
 
             base.OnActionExecuted(filterContext);
+        }
+
+        protected override JsonResult Json(object data, string contentType, Encoding contentEncoding)
+        {
+            return new MyJsonResult(data, contentType, contentEncoding);
+        }
+
+        protected override JsonResult Json(object data, string contentType, Encoding contentEncoding, JsonRequestBehavior behavior)
+        {
+            return new MyJsonResult(data, contentType, contentEncoding);
         }
     }
 }
