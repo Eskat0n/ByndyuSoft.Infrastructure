@@ -96,6 +96,7 @@
     <Compile Include="QueryFor.cs" />
     <Compile Include="Sorting\SortOrder.cs" />
     <Compile Include="Sorting\SortOrderExtensions.cs" />
+    <Compile Include="Sorting\SortState.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="IUnitOfWorkFactory.cs" />
