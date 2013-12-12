@@ -96,9 +96,6 @@
     <Compile Include="..\..\GlobalAssemblyInfo.cs">
       <Link>Properties\GlobalAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Conventions\ColumnNameUpperCaseConventionTests.cs" />
-    <Compile Include="Conventions\ForeignKeyColumnNameConventionTests.cs" />
-    <Compile Include="Conventions\NameConventionsTests.cs" />
     <Compile Include="Map\MappingTests.cs" />
     <Compile Include="Query\QueryTests.cs" />
     <Compile Include="TestingServices\InMemorySQLiteInitializer.cs" />
