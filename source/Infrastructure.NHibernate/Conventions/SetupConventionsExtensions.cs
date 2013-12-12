@@ -34,5 +34,10 @@
             configurator(source);
             return setupConventionFinder.AddSource(source);
         }
+
+        public static AutoPersistenceModel StrictPreset(this SetupConventionFinder<AutoPersistenceModel> setupConventionFinder)
+        {
+            return setupConventionFinder.AddSource(new StrictConventionsSource());
+        }
     }
 }

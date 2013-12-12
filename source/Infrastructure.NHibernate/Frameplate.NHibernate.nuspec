@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Frameplate.NHibernate</id>
+    <version>$version$</version>
+    <title>Frameplate.NHibernate</title>
+    <authors>eskat0n</authors>
+    <owners>eskat0n</owners>
+    <projectUrl>https://github.com/eskat0n/Frameplate</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Frameplate.NHibernate</description>
+    <dependencies>
+      <dependency id="NHibernate" version="3.3.1.4000" />
+      <dependency id="Iesi.Collections" version="3.3.1.4000" />
+      <dependency id="FluentNHibernate" version="1.3.0.733" />
+      <dependency id="JetBrains.Annotations" version="7.0" />
+      <dependency id="Frameplate.Common" version="1.0.12" />
+      <dependency id="Frameplate.Domain" version="1.0.12" />
+    </dependencies>
+    <tags>nhibernate dataaccesslevel dal codeparts frameplate boilerplate infrastructure orm</tags>
+  </metadata>
+</package>

@@ -15,7 +15,7 @@
             EnumType = EnumType.Integer;
         }
 
-        internal static EnumType EnumType { get; private set; }
+        internal static EnumType EnumType { private get; set; }
 
         public void Apply(IPropertyInstance instance)
         {

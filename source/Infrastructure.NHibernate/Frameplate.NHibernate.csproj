@@ -91,8 +91,19 @@
     <Compile Include="Conventions\Preset\Natural\PrimaryKeyConvention.cs" />
     <Compile Include="Conventions\Preset\Natural\PropertyLengthConvention.cs" />
     <Compile Include="Conventions\Preset\Natural\SingularRelationsConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\ColumnNameUpperCaseConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\CustomManyToManyTableNameConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\EntityMapConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\ForeignKeyColumnNameConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\ForeignKeyConstraintNameConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\HasManyConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\NameConventions.cs" />
+    <Compile Include="Conventions\Preset\Strict\NotNullPropertyConvention.cs" />
+    <Compile Include="Conventions\Preset\Strict\PrimaryKeyConvention.cs" />
+    <Compile Include="Conventions\Sources\ConventionsSource.cs" />
     <Compile Include="Conventions\Sources\NaturalConventionsSource.cs" />
     <Compile Include="Conventions\SetupConventionsExtensions.cs" />
+    <Compile Include="Conventions\Sources\StrictConventionsSource.cs" />
     <Compile Include="Conventions\Utility\PluralizerStringExtensions.cs" />
     <Compile Include="INHibernateInitializer.cs" />
     <Compile Include="ISessionProvider.cs" />
@@ -122,7 +133,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Infrastructure.NHibernate.nuspec" />
+    <None Include="Frameplate.NHibernate.nuspec" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -144,10 +155,6 @@
     <ProjectReference Include="..\Infrastructure.Domain\Infrastructure.Domain.csproj">
       <Project>{3F945C22-DAFE-4E48-A790-51FC090901AC}</Project>
       <Name>Infrastructure.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Infrastructure.NHibernate.Conventions\Infrastructure.NHibernate.Conventions.csproj">
-      <Project>{055EBF24-DF76-491B-9941-549428BFCB1C}</Project>
-      <Name>Infrastructure.NHibernate.Conventions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
