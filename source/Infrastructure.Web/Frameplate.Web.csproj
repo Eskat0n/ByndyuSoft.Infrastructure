@@ -129,10 +129,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Common\Infrastructure.Common.csproj">
-      <Project>{4CA1CD9D-ECA4-45BD-BBB6-83A27A9EA101}</Project>
-      <Name>Infrastructure.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Infrastructure.Domain\Frameplate.Domain.csproj">
       <Project>{3f945c22-dafe-4e48-a790-51fc090901ac}</Project>
       <Name>Frameplate.Domain</Name>

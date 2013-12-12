@@ -10,7 +10,7 @@
         [Test]
         public void CreateSelectListFromEnum()
         {
-            var selectedList = EnumExtensions.ToSelectedList<TestEnum>();
+            var selectedList = EnumExtensions.ToSelectdList<TestEnum>();
 
             var items = selectedList.Items.Cast<object>();
 
