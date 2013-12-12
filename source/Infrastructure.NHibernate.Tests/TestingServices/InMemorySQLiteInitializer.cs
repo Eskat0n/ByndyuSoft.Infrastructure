@@ -1,7 +1,6 @@
 ﻿namespace Infrastructure.NHibernate.Tests.TestingServices
 {
     using System;
-    using ByndyuSoft.Infrastructure.NHibernate;
     using Codeparts.Frameplate.NHibernate;
     using FluentNHibernate.Cfg;
     using FluentNHibernate.Cfg.Db;

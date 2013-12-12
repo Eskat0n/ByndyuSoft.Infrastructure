@@ -4,9 +4,8 @@
     using ByndyuSoft.Infrastructure.Domain;
     using ByndyuSoft.Infrastructure.Domain.Criteria;
     using ByndyuSoft.Infrastructure.Domain.Extensions;
-    using ByndyuSoft.Infrastructure.NHibernate;
-    using ByndyuSoft.Infrastructure.NHibernate.Conventions;
     using Codeparts.Frameplate.NHibernate;
+    using Codeparts.Frameplate.NHibernate.Conventions.Preset.Natural;
     using Codeparts.Frameplate.NHibernate.Mappings;
     using NUnit.Framework;
     using TestingServices;

@@ -3,11 +3,10 @@
     using System;
     using System.Linq;
     using ByndyuSoft.Infrastructure.Domain;
-    using ByndyuSoft.Infrastructure.NHibernate.Conventions;
+    using Codeparts.Frameplate.NHibernate.Conventions.Preset.Strict;
     using Codeparts.Frameplate.NHibernate.Mappings;
     using NUnit.Framework;
     using TestingServices;
-    using global::NHibernate;
 
     [TestFixture]
     public class MappingTests : InMemoryTestFixtureBase<TestTreeClassMap, PrimaryKeyConvention>
