@@ -63,8 +63,7 @@
       <HintPath>..\..\packages\Mvc3Futures.3.0.20105.0\lib\Microsoft.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.5.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -82,7 +81,7 @@
     <Compile Include="ControllerBase.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Extensions\HttpContextExtensions.cs" />
-    <Compile Include="Forms\FormControllerBase.cs" />
+    <Compile Include="CommonController.cs" />
     <Compile Include="Forms\FormHandlerException.cs" />
     <Compile Include="Forms\IForm.cs" />
     <Compile Include="Forms\IFormHandler.cs" />

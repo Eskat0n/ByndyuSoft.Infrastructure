@@ -26,7 +26,7 @@
 					throw new ArgumentNullException("context");
 
 				var response = context.HttpContext.Response;
-			    response.ContentType = !String.IsNullOrEmpty(ContentType)
+			    response.ContentType = !string.IsNullOrEmpty(ContentType)
 			                               ? ContentType
 			                               : "application/json";
                 if (ContentEncoding != null)

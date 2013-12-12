@@ -1,11 +1,11 @@
-﻿namespace ByndyuSoft.Infrastructure.Web.Forms
+﻿namespace ByndyuSoft.Infrastructure.Web
 {
     using System;
     using System.Web.Mvc;
     using Domain;
-    using ControllerBase = ControllerBase;
+    using Forms;
 
-    public abstract class FormControllerBase : ControllerBase
+    public abstract class CommonController : ControllerBase
     {
         private const string ModelStateKey = "ModelState";
 
