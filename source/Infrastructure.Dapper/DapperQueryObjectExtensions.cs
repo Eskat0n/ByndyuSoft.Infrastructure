@@ -1,4 +1,4 @@
-﻿namespace ByndyuSoft.Infrastructure.Dapper
+﻿namespace Codeparts.Frameplate.Dapper
 {
     using System.Collections.Generic;
     using System.Data;

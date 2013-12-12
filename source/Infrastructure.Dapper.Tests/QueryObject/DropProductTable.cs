@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Dapper.Tests.QueryObject
 {
-    using ByndyuSoft.Infrastructure.Dapper;
+    using Codeparts.Frameplate.Dapper;
 
     public class DropProductTable
     {

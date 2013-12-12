@@ -2,7 +2,7 @@
 {
     using System.Data;
     using System.Data.SQLite;
-    using ByndyuSoft.Infrastructure.Dapper;
+    using Codeparts.Frameplate.Dapper;
 
     public class SqliteConnectionFactory : IConnectionFactory
     {

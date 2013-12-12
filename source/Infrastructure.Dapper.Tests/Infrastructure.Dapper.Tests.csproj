@@ -80,9 +80,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Dapper\Infrastructure.Dapper.csproj">
+    <ProjectReference Include="..\Infrastructure.Dapper\Frameplate.Dapper.csproj">
       <Project>{3A94E407-85EC-41E8-925F-D40B68E133AE}</Project>
-      <Name>Infrastructure.Dapper</Name>
+      <Name>Frameplate.Dapper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

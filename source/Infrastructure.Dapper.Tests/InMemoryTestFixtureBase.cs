@@ -1,7 +1,7 @@
 ﻿namespace Infrastructure.Dapper.Tests
 {
     using System.Data;
-    using ByndyuSoft.Infrastructure.Dapper;
+    using Codeparts.Frameplate.Dapper;
     using NUnit.Framework;
     using QueryObject;
 

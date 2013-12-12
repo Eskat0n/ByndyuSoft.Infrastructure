@@ -3,7 +3,7 @@ namespace Infrastructure.Dapper.Tests.CRUD
     using System.Collections.Generic;
     using System.Data;
     using System.Linq;
-    using ByndyuSoft.Infrastructure.Dapper;
+    using Codeparts.Frameplate.Dapper;
     using Dto;
     using NUnit.Framework;
     using QueryObject;
