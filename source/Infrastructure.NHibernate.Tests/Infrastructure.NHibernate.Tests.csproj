@@ -115,9 +115,9 @@
       <Project>{055EBF24-DF76-491B-9941-549428BFCB1C}</Project>
       <Name>Infrastructure.NHibernate.Conventions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure.NHibernate\Infrastructure.NHibernate.csproj">
+    <ProjectReference Include="..\Infrastructure.NHibernate\Frameplate.NHibernate.csproj">
       <Project>{8AE4D6FF-EFFE-4086-9E7C-F5EF1CF61D99}</Project>
-      <Name>Infrastructure.NHibernate</Name>
+      <Name>Frameplate.NHibernate</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,8 +1,8 @@
-namespace ByndyuSoft.Infrastructure.NHibernate
+namespace Codeparts.Frameplate.NHibernate
 {
     using System;
-    using JetBrains.Annotations;
     using global::NHibernate;
+    using JetBrains.Annotations;
 
     /// <summary>
     /// 

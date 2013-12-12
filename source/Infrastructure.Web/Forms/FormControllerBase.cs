@@ -2,40 +2,73 @@
 {
     using System;
     using System.Web.Mvc;
-    using ControllerBase = Web.ControllerBase;
+    using Domain;
+    using ControllerBase = ControllerBase;
 
-    public class FormControllerBase : ControllerBase
+    public abstract class FormControllerBase : ControllerBase
     {
         private const string ModelStateKey = "ModelState";
-        private readonly IFormHandlerFactory _formHandlerFactory;
 
-        protected FormControllerBase(IFormHandlerFactory formHandlerFactory)
-        {
-            this._formHandlerFactory = formHandlerFactory;
-        }
+        public IFormHandlerFactory FormHandlerFactory { get; set; }
 
-        protected  ActionResult Form<TForm>(TForm form, ActionResult sucessResult) where TForm : IForm
+        public IQueryBuilder Query { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="form"></param>
+        /// <param name="sucessResult"></param>
+        /// <typeparam name="TForm"></typeparam>
+        /// <returns></returns>
+        protected ActionResult Form<TForm>(TForm form, ActionResult sucessResult) 
+            where TForm : IForm
         {
             return Form(form, () => sucessResult);
         }
 
-        protected ActionResult Form<TForm>(TForm form, ActionResult sucessResult, ActionResult failResult) where TForm : IForm
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="form"></param>
+        /// <param name="sucessResult"></param>
+        /// <param name="failResult"></param>
+        /// <typeparam name="TForm"></typeparam>
+        /// <returns></returns>
+        protected ActionResult Form<TForm>(TForm form, ActionResult sucessResult, ActionResult failResult)
+            where TForm : IForm
         {
             return Form(form, () => sucessResult, () => failResult);
         }
 
-        protected ActionResult Form<TForm>(TForm form, Func<ActionResult> successResult) where TForm : IForm
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="form"></param>
+        /// <param name="successResult"></param>
+        /// <typeparam name="TForm"></typeparam>
+        /// <returns></returns>
+        protected ActionResult Form<TForm>(TForm form, Func<ActionResult> successResult)
+            where TForm : IForm
         {
             return Form(form, successResult, () => Redirect(Request.UrlReferrer.AbsoluteUri));
         }
 
-        protected ActionResult Form<TForm>(TForm form, Func<ActionResult> successResult, Func<ActionResult> failResult) where TForm : IForm
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="form"></param>
+        /// <param name="successResult"></param>
+        /// <param name="failResult"></param>
+        /// <typeparam name="TForm"></typeparam>
+        /// <returns></returns>
+        protected ActionResult Form<TForm>(TForm form, Func<ActionResult> successResult, Func<ActionResult> failResult)
+            where TForm : IForm
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _formHandlerFactory.Create<TForm>().Execute(form);
+                    FormHandlerFactory.Create<TForm>().Execute(form);
 
                     return successResult();
                 }

@@ -13,8 +13,8 @@
         /// <summary>
         ///     Получить результат из базы
         /// </summary>
-        /// <param name="criterion"> </param>
-        /// <returns> </returns>
+        /// <param name="criterion"></param>
+        /// <returns></returns>
         [CanBeNull]
         TResult Ask(TCriterion criterion);
     }

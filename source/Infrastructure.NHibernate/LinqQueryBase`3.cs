@@ -1,7 +1,7 @@
-﻿namespace ByndyuSoft.Infrastructure.NHibernate
+﻿namespace Codeparts.Frameplate.NHibernate
 {
     using System.Linq;
-    using Domain;
+    using ByndyuSoft.Infrastructure.Domain;
     using JetBrains.Annotations;
 
     /// <summary>
@@ -14,19 +14,14 @@
         where TCriterion : ICriterion
         where TEntity : class, IEntity, new()
     {
-        private readonly ILinqProvider _linq;
-
-        protected LinqQueryBase(ILinqProvider linq)
-        {
-            _linq = linq;
-        }
+        public ILinqProvider LinqProvider { get; set; }
 
         /// <summary>
         /// </summary>
         [PublicAPI]
-        public virtual IQueryable<TEntity> Query
+        protected IQueryable<TEntity> Query
         {
-            get { return _linq.Query<TEntity>(); }
+            get { return LinqProvider.Query<TEntity>(); }
         }
 
         #region IQuery<TCriterion,TResult> Members

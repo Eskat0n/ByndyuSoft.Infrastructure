@@ -1,7 +1,7 @@
-﻿namespace ByndyuSoft.Infrastructure.NHibernate
+﻿namespace Codeparts.Frameplate.NHibernate
 {
     using System.Linq;
-    using Domain;
+    using ByndyuSoft.Infrastructure.Domain;
     using JetBrains.Annotations;
 
     /// <summary>
@@ -12,15 +12,15 @@
     public abstract class LinqQueryBase<TCriterion, TResult> : IQuery<TCriterion, TResult>
         where TCriterion : ICriterion
     {
-        private readonly ILinqProvider _linq;
-
-        protected LinqQueryBase(ILinqProvider linq)
-        {
-            _linq = linq;
-        }
+        public ILinqProvider LinqProvider { get; set; }
 
         #region IQuery<TCriterion,TResult> Members
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="criterion"></param>
+        /// <returns></returns>
         public abstract TResult Ask(TCriterion criterion);
 
         #endregion
@@ -28,10 +28,10 @@
         /// <summary>
         /// </summary>
         [PublicAPI]
-        public virtual IQueryable<TEntity> Query<TEntity>()
+        protected virtual IQueryable<TEntity> Query<TEntity>()
             where TEntity : class, IEntity, new()
         {
-            return _linq.Query<TEntity>();
+            return LinqProvider.Query<TEntity>();
         }
     }
 }

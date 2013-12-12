@@ -1,16 +1,16 @@
-﻿namespace ByndyuSoft.Infrastructure.NHibernate
+﻿namespace Codeparts.Frameplate.NHibernate
 {
     using global::NHibernate.Cfg;
 
-    ///<summary>
-    ///  Bootstrapper for nhibernate
-    ///</summary>
+    /// <summary>
+    ///     Bootstrapper for NHibernate
+    /// </summary>
     public interface INHibernateInitializer
     {
-        ///<summary>
-        ///  Builds and returns nhibernate configuration
-        ///</summary>
-        ///<returns> NHibernate configuration object </returns>
-        Configuration GetConfiguration();
+        /// <summary>
+        ///     Builds and returns NHibernate configuration
+        /// </summary>
+        /// <returns>NHibernate configuration object</returns>
+        Configuration CreateConfiguration();
     }
 }

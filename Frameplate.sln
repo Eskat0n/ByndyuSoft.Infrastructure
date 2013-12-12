@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Common", "source\Infrastructure.Common\Infrastructure.Common.csproj", "{4CA1CD9D-ECA4-45BD-BBB6-83A27A9EA101}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Domain", "source\Infrastructure.Domain\Infrastructure.Domain.csproj", "{3F945C22-DAFE-4E48-A790-51FC090901AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.NHibernate", "source\Infrastructure.NHibernate\Infrastructure.NHibernate.csproj", "{8AE4D6FF-EFFE-4086-9E7C-F5EF1CF61D99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frameplate.NHibernate", "source\Infrastructure.NHibernate\Frameplate.NHibernate.csproj", "{8AE4D6FF-EFFE-4086-9E7C-F5EF1CF61D99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.NHibernate.Tests", "source\Infrastructure.NHibernate.Tests\Infrastructure.NHibernate.Tests.csproj", "{8D4AFCBD-AE4F-484C-9A4E-2116B618BCDD}"
 EndProject

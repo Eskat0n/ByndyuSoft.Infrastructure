@@ -4,7 +4,7 @@
     using System.Linq;
     using ByndyuSoft.Infrastructure.Domain;
     using ByndyuSoft.Infrastructure.NHibernate.Conventions;
-    using ByndyuSoft.Infrastructure.NHibernate.Mappings;
+    using Codeparts.Frameplate.NHibernate.Mappings;
     using NUnit.Framework;
     using TestingServices;
     using global::NHibernate;

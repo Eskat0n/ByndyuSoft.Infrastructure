@@ -6,7 +6,8 @@
     using ByndyuSoft.Infrastructure.Domain.Extensions;
     using ByndyuSoft.Infrastructure.NHibernate;
     using ByndyuSoft.Infrastructure.NHibernate.Conventions;
-    using ByndyuSoft.Infrastructure.NHibernate.Mappings;
+    using Codeparts.Frameplate.NHibernate;
+    using Codeparts.Frameplate.NHibernate.Mappings;
     using NUnit.Framework;
     using TestingServices;
     using global::NHibernate;
@@ -59,9 +60,9 @@
 
     public class QueryStub : LinqQueryBase<TestClass, AllEntities, IQueryable<TestClass>>
     {
-        public QueryStub(ILinqProvider linq)
-            : base(linq)
+        public QueryStub(ILinqProvider linqProvider)
         {
+            LinqProvider = linqProvider;
         }
 
         public override IQueryable<TestClass> Ask(AllEntities criterion)

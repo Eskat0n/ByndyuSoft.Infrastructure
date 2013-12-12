@@ -24,7 +24,7 @@
                                                        .AddFromAssemblyOf<TMapping>()
                                                        .Conventions.AddFromAssemblyOf<TConvention>()
                                                        .ExportTo(Path.GetTempPath()))
-                    .GetConfiguration();
+                    .CreateConfiguration();
 
             Session = configuration.BuildSessionFactory().OpenSession();
 

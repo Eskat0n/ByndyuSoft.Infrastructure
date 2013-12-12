@@ -1,9 +1,9 @@
-namespace ByndyuSoft.Infrastructure.NHibernate
+namespace Codeparts.Frameplate.NHibernate
 {
     using System.Linq;
-    using Domain;
-    using JetBrains.Annotations;
+    using ByndyuSoft.Infrastructure.Domain;
     using global::NHibernate.Linq;
+    using JetBrains.Annotations;
 
     /// <summary>
     /// 

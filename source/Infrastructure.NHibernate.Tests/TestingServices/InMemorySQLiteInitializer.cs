@@ -2,6 +2,7 @@
 {
     using System;
     using ByndyuSoft.Infrastructure.NHibernate;
+    using Codeparts.Frameplate.NHibernate;
     using FluentNHibernate.Cfg;
     using FluentNHibernate.Cfg.Db;
     using global::NHibernate;
@@ -19,7 +20,7 @@
             _mappings = action;
         }
 
-        public Configuration GetConfiguration()
+        public Configuration CreateConfiguration()
         {
             var persistenceConfigurer = SQLiteConfiguration.Standard
                 .Dialect<MySQLiteDialect>()

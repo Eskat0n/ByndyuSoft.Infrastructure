@@ -1,6 +1,6 @@
-﻿namespace ByndyuSoft.Infrastructure.NHibernate.Mappings
+﻿namespace Codeparts.Frameplate.NHibernate.Mappings
 {
-    using Domain;
+    using ByndyuSoft.Infrastructure.Domain;
     using FluentNHibernate.Mapping;
 
     ///<summary>

@@ -1,8 +1,8 @@
-﻿namespace ByndyuSoft.Infrastructure.NHibernate
+﻿namespace Codeparts.Frameplate.NHibernate
 {
     using System;
     using System.Data;
-    using Domain;
+    using ByndyuSoft.Infrastructure.Domain;
     using global::NHibernate;
     using global::NHibernate.Context;
 
