@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"
+            xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Frameplate Application</Name>
+    <Description>ASP.NET MVC application based on Frameplate carapace</Description>
+    <Icon>FrameplateProject.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>15c053b8-0948-442e-aff0-ee08e23dccf6</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FrameplateApplication1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="Domain model: entities, criteria, definitions">
+        Domain.Model\Domain.Model.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="Data access layer: queries, repositories, mappings">
+        Domain.DataAccess\Domain.DataAccess.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="An ASP.NET MVC application inself with views, css and javascript files, etc.">
+        Web\Web.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="Business logic layer for ASP.NET MVC application">
+        Web.Application\Web.Application.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="Database migrations">
+        Migrations\Migrations.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

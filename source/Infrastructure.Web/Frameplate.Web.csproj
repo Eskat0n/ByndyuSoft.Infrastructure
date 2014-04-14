@@ -96,7 +96,6 @@
     <Compile Include="Mvc\UrlHelperExtensions.cs" />
     <Compile Include="Routing\RedirectToRoutePermanentHandler.cs" />
     <Compile Include="Routing\RouteCollectionExtensions.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

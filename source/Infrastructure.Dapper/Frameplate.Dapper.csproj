@@ -56,7 +56,6 @@
     <Compile Include="DapperQueryBase.cs" />
     <Compile Include="DapperQueryObjectExtensions.cs" />
     <Compile Include="IConnectionFactory.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryObject.cs" />
   </ItemGroup>
   <ItemGroup>
